@@ -2,7 +2,7 @@
 
 """Hogwarts house sorter"""
 
-from cli_utils import display_question, parse_answer
+from cli_utils import display_question, parse_answers
 
 print("Welcome to our Hogwarts house quiz!")
 print("Which house shall you be sorted in? Answer the questions to find out...")
