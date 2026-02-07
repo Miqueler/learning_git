@@ -35,6 +35,4 @@ def ask_question(question_info:dict):
     while answer not in ["1", "2", "3", "4"]:  
         print("The answer must be a number 1-4")
         answer = input() 
-    return possible_answers[1]["weights"]
-
-print(ask_question(random.choice(load_sorting_hat_questions("actual_question.json"))))
+    return possible_answers[int(answer)]["weights"]
