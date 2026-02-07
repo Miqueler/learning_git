@@ -26,9 +26,8 @@ def main():
 if __name__ == "__main__":
     print("Welcome to our Hogwarts house quiz!")
     print("Which house shall you be sorted in? Answer the questions to find out...")
-    while True:
-        try:
-            main()
-        except:
-            print("You took off the sorting hat and decided Hogwarts isn't for you.")
-            print("Try again next year!")
+    try:
+        main()
+    except:
+        print("You took off the sorting hat and decided Hogwarts isn't for you.")
+        print("Try again next year!")
