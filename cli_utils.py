@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 
-def display_question(question):
-    print(question["text"])
 
 def display_results(house):
-    pass
+    return
 
-def parse_answers():
-    pass
 
-def get_house():
-    pass
+def get_house(weights:dict):
+    house = max(weights, key=weights.get)
+    return house
