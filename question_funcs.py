@@ -29,4 +29,5 @@ def ask_question(questions:list):
         answer = input() 
     return answer
 
-ask_question(load_sorting_hat_questions("actual_question.json"))
+if __name__ == "__main__":
+    ask_question(load_sorting_hat_questions("actual_question.json"))
