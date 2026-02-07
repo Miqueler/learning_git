@@ -17,7 +17,8 @@ weightings = {
 def main():
     for question in questions_list:
         answer_weightings = ask_question(question)
-        weightings = update_house_weightings(weightings, answer_weightings)
+        new_weightings = update_house_weightings(weightings, answer_weightings)
+        weightings.update(new_weightings)
     house = get_house(weightings)
     display_results(house)
     print("The sorting hat thanks you for your patience. Don't get up to no good at Hogwarts!")
