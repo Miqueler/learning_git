@@ -1,0 +1,229 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "When faced with a difficult challenge, what is your first instinct?",
+      "answers": [
+        {
+          "text": "Face it head-on, even if it’s risky",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Think carefully and analyze all possibilities",
+          "weights": { "Gryffindor": 1, "Slytherin": 2, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Look for the smartest or most efficient path",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 2, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Seek help and work through it with others",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Which quality do you value most?",
+      "answers": [
+        {
+          "text": "Bravery",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Ambition",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Intelligence",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Loyalty",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "In a group, what role do you naturally take?",
+      "answers": [
+        {
+          "text": "Leader who inspires action",
+          "weights": { "Gryffindor": 3, "Slytherin": 2, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Strategist who plans success",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 2, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Thinker with clever ideas",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Supporter who keeps harmony",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "What motivates you the most?",
+      "answers": [
+        {
+          "text": "Doing what is right, no matter the risk",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Achieving success and recognition",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Learning and understanding more",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Helping and protecting others",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "How do you feel about rules?",
+      "answers": [
+        {
+          "text": "They can be broken if necessary",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "They should be used to your advantage",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "They exist for logical reasons",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "They should be respected",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "text": "What would you hate to be known for?",
+      "answers": [
+        {
+          "text": "Cowardice",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Failure",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Ignorance",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Betrayal",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "text": "Which environment do you thrive in?",
+      "answers": [
+        {
+          "text": "High-stakes and exciting",
+          "weights": { "Gryffindor": 3, "Slytherin": 2, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Competitive and goal-driven",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Quiet and intellectually stimulating",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Warm and supportive",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+
+    {
+      "id": 8,
+      "text": "How do you approach long-term goals?",
+      "answers": [
+        {
+          "text": "With bold determination",
+          "weights": { "Gryffindor": 3, "Slytherin": 2, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "With careful planning",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 2, "Hufflepuff": 1 }
+        },
+        {
+          "text": "With research and curiosity",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "With patience and persistence",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "text": "Which would you choose first?",
+      "answers": [
+        {
+          "text": "Adventure",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Power",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Knowledge",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Friendship",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "text": "What do you trust most?",
+      "answers": [
+        {
+          "text": "Your instincts",
+          "weights": { "Gryffindor": 3, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Your ambition",
+          "weights": { "Gryffindor": 1, "Slytherin": 3, "Ravenclaw": 1, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Your reasoning",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 3, "Hufflepuff": 1 }
+        },
+        {
+          "text": "Your values",
+          "weights": { "Gryffindor": 1, "Slytherin": 1, "Ravenclaw": 1, "Hufflepuff": 3 }
+        }
+      ]
+    }
+  ]
+}
