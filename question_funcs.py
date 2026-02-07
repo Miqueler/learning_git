@@ -36,3 +36,8 @@ def ask_question(question_info:dict):
         print("The answer must be a number 1-4")
         answer = input() 
     return possible_answers[int(answer)]["weights"]
+
+def update_house_weightings(current_weightings, answer_weightings):
+    for house in current_weightings.keys():
+        current_weightings[house] += answer_weightings[house]
+    return current_weightings
