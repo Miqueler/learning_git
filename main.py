@@ -5,6 +5,7 @@
 from cli_utils import get_house, display_results
 from question_funcs import load_sorting_hat_questions, ask_question, update_house_weightings
 
+
 questions_list = load_sorting_hat_questions("actual_question.json")
 weightings = {
     "Gryffindor": 0, 
@@ -12,9 +13,6 @@ weightings = {
     "Ravenclaw": 0, 
     "Hufflepuff": 0
 }
-
-print("Welcome to our Hogwarts house quiz!")
-print("Which house shall you be sorted in? Answer the questions to find out...")
 
 def main():
     for question in questions_list:
@@ -24,7 +22,10 @@ def main():
     display_results(house)
     print("The sorting hat thanks you for your patience. Don't get up to no good at Hogwarts!")
 
+
 if __name__ == "__main__":
+    print("Welcome to our Hogwarts house quiz!")
+    print("Which house shall you be sorted in? Answer the questions to find out...")
     while True:
         try:
             main()
