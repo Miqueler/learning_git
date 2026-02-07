@@ -20,13 +20,21 @@ def load_sorting_hat_questions(filepath:str):
         raise ValueError(f"Invalid JSON format: {e}")
 
 
-def ask_question(questions:list):
-    question = random.choice(questions)
-    answer = input(f"{question} (y/n): ")
+def ask_question(question_info:dict):
+    #Expects the info from the question and returns a dictionary with the weights attached to each house for the given answer.
+    question = question_info["text"]
+    possible_answers = question_info["answers"]
+    answer = input(f'''{question}
+    1: {possible_answers[0]["text"]}
+    2: {possible_answers[1]["text"]}
+    3: {possible_answers[2]["text"]}
+    4: {possible_answers[3]["text"]}
+    Enter your answer (1-4): ''')
+    
 
-    while answer != ("y" or "n"):  
-        print("The answer must be 'y' or 'n'")
+    while answer not in ["1", "2", "3", "4"]:  
+        print("The answer must be a number 1-4")
         answer = input() 
-    return answer
+    return possible_answers[1]["weights"]
 
-ask_question(load_sorting_hat_questions("actual_question.json"))
+print(ask_question(random.choice(load_sorting_hat_questions("actual_question.json"))))
