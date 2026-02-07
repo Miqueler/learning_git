@@ -1,5 +1,5 @@
 import json
-import random
+
 
 def load_sorting_hat_questions(filepath:str):
     try:
